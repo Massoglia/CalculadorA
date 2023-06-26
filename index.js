@@ -1,6 +1,6 @@
 //Referencias
-botonesNumeros = Array.from(document.getElementsByClassName("numero"));
-botonesOperaciones = Array.from(document.getElementsByClassName("operacion"));
+botonesNumeros = Array.from(document.getElementsByClassName("kbc-button"));
+botonesOperaciones = Array.from(document.getElementsByClassName("kbc-button n"));
 pantallaElement = document.getElementById("pantalla");
 indicadorOperacionElement = document.getElementById("indicadorOperacion");
 
