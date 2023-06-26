@@ -5,9 +5,10 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: #22c1c3;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #ad5389;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
  }
 
@@ -17,9 +18,9 @@
 
  #container{
 	position: relative;
-	border: 2px solid black;
+	border: 2px solid rgb(255, 255, 255);
 	border-radius: 5px;
-	background-color: rgba(0, 0, 0, 0.038);
+	background-color: rgba(230, 224, 224, 0.038);
 	padding: 5px;
 	margin: auto;
 }
@@ -40,13 +41,18 @@
 }
 
 #pantalla{
+	/* From https://css.glass */
+	background: rgba(255, 255, 255, 0.21);
+	border-radius: 2px;
+	box-shadow: 0 4px 30px rgba(255, 252, 252, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
 	font-size: 3rem;
 	text-align: end;
 	padding: 10px;
-	background-color: rgba(255, 255, 255, 0.05);
+	background-color: rgba(203, 193, 193, 0.05);
 	margin: 0;
-	border: 1px solid black;
-	border-radius: 2px;
 }
 
 #indicadorOperacion{
@@ -122,7 +128,7 @@ button:hover{
 }
 
 footer{
-	background-color: rgba(0, 0, 0, 0.073);
+	background-color: rgba(243, 236, 236, 0.073);
 	width: 100%;
 	text-align: center;
 	margin-top: auto;
